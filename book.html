@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="Book.ico">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            justify-content: center;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        .header, .footer {
+            width: 100%;
+            background-color: #1e2227;
+            position: sticky;
+            line-height: 40px;
+        }
+
+
+        .header {
+            display: flex;
+            top: 0;
+            height: 50px;
+        }
+
+        .header a {
+            margin-left: 50px;
+        }
+
+        .btn {
+            color: #eee;
+            padding-top: 5px;
+        }
+
+        .btn:hover {
+            color: orange;
+        }
+
+        .container {
+            height: 800px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            background-color: darkcyan;
+            padding-top: 20px;
+        }
+
+        .container .item {
+            width: 250px;
+            height: 250px;
+            /* background-color: red;
+            border: solid 2px black; */
+        }
+
+        .container .item p {
+            text-align: center;
+            color: #fff;
+            border-bottom: 2px solid orange;
+            font-size: 13px;
+        }
+
+        .container .item img {
+            width: 200px;
+            height: 200px;
+            position: relative;
+            margin-left: 25px;
+        }
+
+        .container .item img:hover {
+            transition: 1.06s;
+            transform: scale(1.2)
+        }
+
+        .footer {
+            height: 50px;
+            bottom: 0;
+        }
+
+        .footer h6 {
+            color: white;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        /* @media (max-width: 600px) {
+            .header {
+                flex-direction: column;
+                background-color: red;
+                display: inline-block;
+            }
+
+            .header a div {
+                color: black;
+            }
+
+            .header a div:hover {
+                color: white;
+            }
+        } */
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html">
+            <div class="btn">Ana səhifə</div>
+        </a>
+
+        <a href="book.html">
+            <div class="btn">Kitablar</div>
+        </a>
+
+        <a href="info.html">
+            <div class="btn">Haqqımızda</div>
+        </a>
+
+        <a href="contact.html">
+            <div class="btn">Əlaqə</div>
+        </a>
+    </div>
+
+    <div class="container">
+        <div class="item">
+            <p>George Orwell - 1984</p><br>
+            <img src="1984.png">
+        </div>
+
+        <div class="item">
+            <p>Elxan Zeynallı - A</p><br>
+            <img src="A.png">
+        </div>
+
+        <div class="item">
+            <p>John Verdon - Ağlında bir rəqəm tut</p><br>
+            <img src="Aglinda bir reqem tut.jpg">
+        </div>
+
+        <div class="item">
+            <p>Artur Conan Doyle - Baskerviller iti</p><br>
+            <img src="Baskerviller iti.jpg">
+        </div>
+
+        <div class="item">
+            <p>Fyodor Dostoyevski - Bəyaz gecələr</p><br>
+            <img src="Beyaz geceler.jpg">
+        </div>
+
+        <div class="item">
+            <p>Agatha Christie - Böyük dördlük</p><br>
+            <img src="Boyuk dordluk.jpg">
+        </div>
+
+        <div class="item">
+            <p>Charles Dickens - Böyük ümidlər</p><br>
+            <img src="Boyuk umidler.png">
+        </div>
+
+        <div class="item">
+            <p>Çingiz Abdullayev - Cəlladın müdrikliyi</p><br>
+            <img src="Celladin mudrikliyi.jpg">
+        </div>
+
+        <div class="item">
+            <p>Dan Brown - Da Vinçi şifrəsi</p><br>
+            <img src="Da Vinçi şifrəsi.jpg">
+        </div>
+
+        <div class="item">
+            <p>Patric Zuskind - Ətriyyatçı</p><br>
+            <img src="Etriyyatci.png">
+        </div>
+
+        <div class="item">
+            <p>Çingiz Abdullayev - Mavi mələklər</p><br>
+            <img src="Mavi melekler.png">
+        </div>
+
+        <div class="item">
+            <p>Elxan Zeynallı - Mələk</p><br>
+            <img src="Melek.jpg">
+        </div>
+
+        <div class="item">
+            <p>Agatha Christie - On zənci balası</p><br>
+            <img src="On zenci balasi.png">
+        </div>
+        <div class="item">
+            <p>Antonio Tabucci - Pereyra iddia edir</p><br>
+            <img src="Pereyra iddia edir.jpg">
+        </div>
+
+        <div class="item">
+            <p>Gabriel Garsiya Marquez - Yüz ilin tənhalığı</p><br>
+            <img src="Yuz ilin tenhaligi.jpg">
+        </div>
+    </div>
+
+    <div class="footer">
+        <h6>DESIGN BY SELMAN ALIYEV</h6>
+    </div>
+</body>
+</html>

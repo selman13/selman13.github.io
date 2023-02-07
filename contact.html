@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="Book.ico">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        .header, .footer {
+            width: 100%;
+            background-color: #1e2227;
+            position: sticky;
+            justify-content: center;
+            line-height: 40px;
+        }
+
+        .header {
+            display: flex;
+            top: 0;
+            height: 50px;
+        }
+
+        .header a {
+            margin-left: 50px;
+        }
+
+        .btn {
+            color: #eee;
+            padding-top: 5px;
+        }
+
+        .btn:hover {
+            color: orange;
+        }
+
+        .container {
+            width: 100%;
+            height: 600px;
+            background-color: darkcyan;
+            padding-top: 50px;
+        }
+
+        form {
+            width: 26.5%;
+            padding-top: 30px;
+            padding-left: 30px;
+            border: 3px solid black;
+            margin-left: 36.5%;
+            border-radius: 20px;
+            height: 400px;
+        }
+
+        form .do, form .hv {
+            border-radius: 10px;
+            background-color: orange;
+            width: 170px;
+            text-align: center;
+            margin-left: 50px;
+            height: 30px;
+            font-size: 18px;
+        }
+
+        form .hv {
+            background-color: darkblue;
+            padding-top: 5px;
+        }
+
+        form .do:hover,
+        form .hv:hover {
+            transition: .7s;
+            transform: scale(1.1);
+        }
+
+        form .do, form .hv a {
+            color: white;
+        }
+
+        input {
+            margin-left: 50px;
+            height: 30px;
+            text-align: center;
+            border: none;
+            border-radius: 6px;
+        }
+
+        form h1 {
+            color: darkred;
+        }
+
+        .footer {
+            height: 50px;
+            bottom: 0;
+        }
+
+        .footer h6 {
+            color: white;
+            text-align: center;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html">
+            <div class="btn">Ana səhifə</div>
+        </a>
+
+        <a href="book.html">
+            <div class="btn">Kitablar</div>
+        </a>
+
+        <a href="info.html">
+            <div class="btn">Haqqımızda</div>
+        </a>
+
+        <a href="contact.html">
+            <div class="btn">Əlaqə</div>
+        </a>
+    </div>
+
+    <div class="container">
+        <form action="">
+            <h1>GİRİŞ/QEYDİYYAT</h1><br>
+            <input type="name" placeholder="Adınız..."> <br><br>
+            <input type="name" placeholder="Soyadınız"> <br><br>
+            <input type="mail" placeholder="Mailiniz..."> <br><br>
+            <input type="password" placeholder="Şifrəniz..."> <br><br>
+            <input class="do" type="submit" value="DAXİL OL"><br><br>
+            <p class="hv"><a href="#">HESABIN VAR?</a></p>
+        </form> 
+    </div>
+
+    <div class="footer">
+        <h6>DESIGN BY SELMAN ALIYEV</h6>
+    </div>
+</body>
+</html>
